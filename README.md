@@ -1,5 +1,3 @@
-# curso-frontend
-
 # Curso Front-end
 #### EBAC
 
