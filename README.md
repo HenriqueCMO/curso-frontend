@@ -1,5 +1,5 @@
 # Curso Front-end
-#### EBAC
+#### EBAC Henrique
 
 # GIT
 ## Conceitos de versionamento
