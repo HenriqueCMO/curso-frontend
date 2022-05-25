@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt_BR"> 
+	<head>
+		<title>HTML - Listas e links </title>
+		<meta charset="UTF-8">
+	</head>
+	<style type="text/css">
+		.bt {
+			border:1px solid #25692A;
+			border-radius:50px;
+			font-family:Arial, Helvetica, sans-serif;
+			display:inline-block;
+			cursor:pointer;
+			font-weight:bold;
+			border-color:lightcyan;
+			background:linear-gradient(to top, #ADD8E6 5%, #87CEEB 100%);
+			box-shadow:inset 0px 1px 0px 0px #19fc8b;
+			color:#333;
+			font-size:13px;
+			padding:6px 10px;
+			text-decoration:none;
+			}
+			.bt:hover {
+			background: lightgreen;
+			text-decoration: underline;
+			}
+	</style>
+	<body>
+		<h1>Listas e Links</h1>
+		<h2 id="lista-nao-ordenada" >Lista não ordenada</h2>
+		<ul>
+			<li>
+				Brasil
+				<ul>
+					<li>São Paulo
+						<ol>
+							<li>São Paulo</li>
+						</ol>
+					</li>
+					<li>Rio de Janeiro</li>
+					<li>Minas Gerais</li>
+					<li>Pará	
+						<ul>
+							<li>Belém</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>Argentina</li>
+			<li>Uruguai</li>
+			<li>Paraguai</li>
+		</ul>
+		<h2>Lista ordenada</h2>
+		<ol>
+			<li>Palmeiras</li>
+			<li>Corinthians</li>
+			<li>Santos</li>
+			<li>São Paulo</li>
+		</ol>
+		<h2>Lista de definições</h2>
+		<dl>
+			<dt>Tv</dt>
+				<dd>32 polegadas,smart, ...</dd>
+				<dd>127 Volts</dd>
+			<dt>Pc</dt>
+				<dd>USB, 19 polegadas, core I5, ...</dd>			
+		</dl>
+		<h2>Links</h2>			
+		<nav>
+			<ul>
+				<li><a href="https://ebaconline.com.br">EBAC</a></li>
+				<li><a href="#top">Voltar ao topo</a></li>
+				<li><a href="#lista-nao-ordenada">Ver lista não ordenada</a> <br></li>				
+			</ul>
+		</nav>
+		<nav>
+			<button class="bt" onclick="document.location='henrique-exercicio-modulo-07.html'">Voltar a homepage</button>
+		</nav>		
+	</body>
+</html>

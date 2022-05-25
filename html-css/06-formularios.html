@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 	
+	<head>		
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<header>
+			<h2>Curso frontend - HTML</h2>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="./05-layouts.html">Home</a></li>
+					<li><a href="./05-layouts-sobre.html">Sobre</a></li>
+					<li><a href="./06-contato.html">Contato</a></li>
+					<li><a href="06-formularios.html">Formulário</a></li>
+					<li><a href="./henrique-homepage.html">Voltar a Homepage</a></li>
+				</ul>
+			</nav>
+			<article>
+				<h1>Formulário</h1>
+				<p>Preencha os campos do formulário abaixo</p>
+					<form method="post">
+						<div>
+							<label for="input">Nome</label><br>
+							<input type="text" name="Nome" id="nome" placeholder="Digite seu nome">
+						</div>						
+						<div>
+							<label for="email">E-mail</label><br>
+							<input type="email" name="email" id="email" placeholder="Digite seu email">
+						</div>
+						<div>
+							<label for="mensagem">Mensagem</label><br>
+							<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+						</div>
+						<div>
+							<p>
+							<label>Qual linguagem você prefere?</label>
+								<input type="radio" name="linguagens" value="html">Html
+								<input type="radio" name="linguagens" value="css">Css
+								<input type="radio" name="linguagens" value="javascript">JavaScript
+							</p>
+						</div>
+						<div>
+							<p>
+								<label>Quais linguagens você sabe?</label>
+								<input type="checkbox" name="linguagens" value="html">Html
+								<input type="checkbox" name="linguagens" value="css">Css
+								<input  type="checkbox" name="linguagens" value="javascript">JavaScript
+							</p>
+						</div>
+						<div>
+							<label>Qual sua cor favorita?</label>
+							<select class="opcao">
+								<option value="azul" selected>Azul</option>
+								<option value="verde">Verde</option>
+								<option value="vermelho">Vermelho</option>
+								<option value="amarelo">Amarelo</option>
+							</select>
+						</div>
+						<div>
+							<input type="submit">
+						</div>
+					</form>
+			</article>
+		</section>
+		<footer>
+			<p>Desenvolvido por Henrique</p>
+		</footer>
+	</body>
+</html>

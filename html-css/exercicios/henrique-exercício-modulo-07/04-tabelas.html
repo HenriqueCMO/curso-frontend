@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt_BR"> 	
+<head>		
+	<title>HTML - Tabelas</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+	<body>
+		
+		<h1>Tabela</h1>
+
+		<table border="1" width="100%">
+			<thead>
+				<tr>
+					<th>Coluna1</th>
+					<th>Coluna3</th>
+					<th>Coluna2</th>
+				</tr>
+				<tr>
+					<td colspan="3">Descrição tabela</td>
+				</tr>
+			</thead>
+
+			<tbody>
+
+				<tr align="center">
+					<td>1a</td>
+					<td>1b</td>
+					<td>1c</td>
+				</tr>
+				<tr align="right">
+					<td>2a</td>
+					<td>2b</td>
+					<td>2c</td>
+				</tr>
+				<tr>
+					<td>3a</td>
+					<td colspan="2">3bc</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="3" align="center">Rodapé da tabela</td>
+				</tr>
+			</tfoot>
+		</table>
+
+		<h2>Tabela como layout</h2>
+
+		<table width="600">
+			<tr height="90">
+				<td  colspan="4" bgcolor="#BBCCEE" align="center">Cabeçalho</td>		
+			</tr>
+			<tr height="300">
+				<td width="20" bgcolor="#0000FF"></td>
+				<td bgcolor="#DDDDDD">Coluna 1</td>
+				<td bgcolor="#EEEEEE">Coluna 2</td>
+				<td width="20" bgcolor="#0000FF"></td>
+			</tr>
+			<tr>
+				<td bgcolor="#FF0000" colspan="4" align="center">Rodapé</td>
+			</tr>
+			
+		</table>
+		<p>
+			<button class="bt" onclick="document.location='henrique-exercicio-modulo-07.html'">Voltar a homepage</button>
+		</p>	
+	</body>
+</html>

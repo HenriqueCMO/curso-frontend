@@ -1,0 +1,332 @@
+/*Arquivo CSS geral com estilos dos elementos de todas as páginas*/
+@import url('tabelas.css');
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333333;
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /*equivalente a 10px */
+}	
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: url(../images/pattern.png);
+	background-color: white;
+	overflow: overlay;
+}
+
+h1, h2, h3 {
+	margin-bottom: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #454545;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-size: 2rem; 
+	height: 3rem;
+}
+
+h3{
+	font-family: 'Macondo', cursive;
+	font-size:  1.8rem;
+	font-style: italic;
+	font-weight: bold ;
+	line-height: 2rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+h4{
+	font-size: 1.6rem;
+}
+
+h5{
+	font-size: 1.4rem;
+}
+
+h6{
+	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+	color: #555555;
+	text-decoration: none; 
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#primeiro-link > a {
+	color: #933;
+}
+
+ul{
+	font-size: 20px;
+	padding-left: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+ul li {
+	font-size: 0.8em; /* equivalente a 16px */
+	font-size: 1.6rem; /* equivalente a 16px */
+	width: 80%;
+	height: 3rem; /* equivalente a 30px */
+}
+
+li{
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+p {
+	color: #00373f;
+	font-size: 1.6rem; /* equivalente a 16px */
+	font-weight: normal;
+	line-height: 2rem;
+	margin-bottom: 20px;
+}
+
+.navegacao li {
+	border-bottom: 1px solid #ccc;
+	display: block;
+	padding: 1rem 1rem 2rem 1rem;
+	line-height: 1.2rem;
+}
+
+.navegacao a {
+	background: rgba(224, 255, 255, 1);
+	display: block;
+	margin-bottom: .5rem;
+	width: 100%;
+}
+
+form{
+	background: #eee;
+	padding: 10px;
+}
+
+
+form div{
+	background: #fff;
+	border: 1px dashed #999;
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem;
+	font-family: sans-serif;
+	font-weight: bold;
+	color: #66F;
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"],[type="email"], textarea, label {
+	width: 100%;
+	display: block;
+}
+
+[type="checkbox"],[type="radio"], [type="submit"], select{
+	cursor:pointer;
+	pointer-events: auto;
+}
+
+header {
+	background-color: #6495ED;
+	padding: 1rem;
+	text-align: center;
+	font-size: 2rem;
+	color: aquamarine;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	height: 100%;
+	padding: 20px;
+	background: #ccc;
+	background-color: rgba(204, 253, 255, 0.75);
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+article {
+	float: left;
+	padding: 20px;
+	width: 70%;
+	background-color: #f1f1f1;
+}
+
+section{
+	background: rgba(255, 255, 255, 0.25);
+}
+
+footer p {
+	color: rgb(75, 0, 130);
+	font-family: 'Macondo', cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+footer,header {
+	background-color: #6495ED;
+}
+
+section::after {
+	background: #ccc;
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer {
+	background-color: #6495ED;
+	padding: 10px;
+	text-align: center;
+}
+
+blockquote, table {
+	font-size: 15px;
+}
+
+.bt {
+	border:0.1rem solid #25692A;
+	border-radius:5rem;
+	font-family:Arial, Helvetica, sans-serif;
+	display:inline-block;
+	cursor:pointer;
+	font-weight:bold;
+	border-color:lightcyan;
+	background:linear-gradient(to top, #ADD8E6 5%, #87CEEB 100%);
+	box-shadow:inset 0px 1px 0px 0px #19fc8b;
+	color:#333;
+	font-size:1.3rem;
+	padding:0.6rem 1rem;
+	text-decoration:none;
+}
+
+.bt:hover {
+	background: lightgreen;
+	text-decoration: underline;
+}
+
+header p{
+	color: #fff;
+}
+
+
+header h2{
+	font-weight: 100;
+}
+
+header > h2{
+	font-weight: 600;
+}
+
+header h2 + p {
+	background: #FF0;
+	color: #333;
+}
+
+h2 ~ h5{
+	font-size: 1.2rem;
+}
+
+h2 ~ p {
+	text-transform: uppercase;
+}
+
+a:hover{
+	color: rgba(0, 0, 0, 0.75);
+	font-weight: bold;
+	background: rgba(173, 255, 47, 0.85) !important;
+	width: 65%;
+}
+
+a:active {
+	color: darkolivegreen;
+	text-decoration: underline;
+}
+
+h2:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+#tabela{
+	width: 600px;
+	height: 600px;
+}
+
+#tabela h1, #tabela h2, #tabela h3 {
+	text-align: center;
+}
+
+#tabela td{
+	text-align: center;
+}
+
+.coffee{
+	margin-top: 40px;
+	margin-left: 70px;
+	width: 60%;
+	height: 60%;
+}
+
+#grafico-01{
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;   
+}
+
+#grafico-01 img{
+    width: 100%;
+    align-content: center;
+}
+
+span{
+	background: #fff;
+	width: 100%;
+}
+
+/*Desing Responsivo*/
+
+@media (max-width: 425px) {
+	header, section, nav, article {
+		width: 100%;
+		height: auto;
+	}
+
+	#tabela{
+		width: auto;
+		height: auto;
+		margin: auto;
+	}
+	.table-container{
+		width: auto;
+		padding: 0;	
+	}
+}

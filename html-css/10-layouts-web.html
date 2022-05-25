@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layouts Web</title>
+        <!-- Reset para padronização entre browsers--> 
+
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+        <!-- Google fonts link -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+
+        <!-- Estilos personalisados css -->
+
+        <link rel="stylesheet" type="text/css" href="./css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./css/layouts.css">
+        <link rel="stylesheet" type="text/css" href="./css/graficos.css">
+    </head>
+    <body>
+        <header>
+            <h2>Front-end</h2>
+        </header>
+        <section>
+            <nav>
+                <h3>Aulas</h3>
+                <ul>
+                    <li><a href="01-introducao.html">Introdução</a></li>
+                    <li><a href="02-listas-e-links.html">Listas e Links</a></li>
+                    <li><a href="03-formatacao-de-texto.html">Formatação de Texto</a></li>
+                    <li><a href="04-tabelas.html">Tabelas</a></li>
+                    <li><a href="05-layouts.html">Layouts</a></li>
+                    <li><a href="06-formularios.html">Formulários</a></li>
+                    <li><a href="07-fundamentos-css.html">Fundamentos CSS</a></li>
+                    <li><a href="08-layouts-fluidos.html">Layouts Fluidos</a></li>
+                    <li><a href="09-elementos-graficos.html" target="meu-iframe">Elementos Gráficos</a></li>
+                    <li><a href="henrique-homepage.html">Voltar a homepage</a></li>
+                    <li><a href="https://ebaconline.com.br" target="_blank" rel="noreferrer noopener">EBAC</a></li>
+
+                </ul>
+            </nav>
+            <article>
+                <h2>Design Responsivo</h2>                
+                <div class="coluna">                                 
+                        <h3>Layouts em coluna</h3>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/ucI8Lx-3_Uo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+                </div>
+                <div class="coluna">
+                    <div id="grafico-01">
+                        <img class="filtros" src="./material de apoio/Material de Apoio M8/images/coffee-square.jpg" alt="café">
+                    </div>
+                </div>
+                <div class="coluna coluna-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel laboriosam aliquid adipisci reprehenderit id! Aliquam explicabo provident optio odio debitis unde consectetur rem, accusamus magnam nostrum quos voluptatum omnis.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Voluptatem, voluptas? Blanditiis ea recusandae dolorum odit iure magni ipsum adipisci illo inventore, totam sequi vitae in obcaecati eos, ullam distinctio atque!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Est tenetur rerum nostrum, quidem, aperiam impedit dicta soluta non quasi cum molestiae. Delectus voluptates explicabo, fugiat necessitatibus officiis consequuntur amet dicta!
+                </div>
+                <div class="coluna">
+                    <!-- CORS
+                    Cross Origin Resource Sharing (Compartilhamento de recursos com origens diferentes) -->
+                    <iframe src="./02-listas-e-links.html" width="100%" height="400px" name="meu-iframe"></iframe>
+                </div>
+                <div class="coluna coluna-100w">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7637970414517!2d-46.655018785543646!3d-23.540996466724557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce57bc513b0395%3A0xf8caecd88e8edbad!2sEBAC!5e0!3m2!1spt-BR!2sbr!4v1653434612341!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </article>
+        </section>       
+        <footer>
+            <p>Desenvolvido por Henrique Coelho</p>
+        </footer>        
+    </body>
+</html>

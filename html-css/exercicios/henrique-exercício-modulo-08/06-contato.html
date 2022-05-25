@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_BR"> 	
+	<head>		
+		<title>HTML - Layouts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale-1">
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+		<link rel="stylesheet" type="text/css" href="./css/modulo-08.css">
+	</head>
+	<body >
+		<header>
+			<h2>Curso frontend - HTML</h2>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<li><a href="./05-layouts.html">Home</a></li>
+					<li><a href="./05-layouts-sobre.html">Sobre</a></li>
+					<li><a href="06-contato.html">Contato</a></li>
+					<li><a href="06-formularios.html">Formulário</a></li>
+					<li><a href="./henrique-exercicio-modulo-08.html">Voltar a Homepage</a></li>
+				</ul>
+				<img class="coffee" src="../henrique-exercício-modulo-08/images/coffee.svg" alt="café">
+			</nav>
+			<article>
+				<h1>Contato</h1>
+				<p>Vamos tomar uma café?</p><br>
+					<form method="post">
+						<div>
+							<label for="input">Nome</label><br>
+							<input type="text" name="Nome" id="nome" placeholder="Digite seu nome">
+						</div>						
+						<div>
+							<label for="email">E-mail</label><br>
+							<input type="email" name="email" id="email" placeholder="Digite seu email">
+						</div>
+						<div>
+							<label for="telefone">Telefone</label><br>
+							<input type="telefone" name="telefone" id="telefone" placeholder="(xx)9xxxx-xxxx">
+						</div>
+						<div>
+							<label for="mensagem">Mensagem</label><br>
+							<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+						</div>
+						<div>
+							<input type="submit">
+						</div>
+					</form>
+			</article>
+		</section>
+		<footer>
+			<p>Desenvolvido por Henrique</p>
+		</footer>
+	</body>
+</html>
