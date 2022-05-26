@@ -112,7 +112,7 @@ section article{
 }
 
 footer{
-    background-color: #214559;    
+    background-color: #254159;    
     display: block;
     float: left;
     width: 100%;
@@ -128,4 +128,9 @@ footer p{
 footer small{
     font-size: 80%;
     display: block;
+}
+
+.cognito {
+    height: 445px !important;
+    overflow: hidden !important;
 }
