@@ -17,12 +17,13 @@ body{
     display: block;
     float: left;
     padding: 20px;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
+    max-width: 1198px;
 }
 
 header{
-    background-color: #fff;
+    background: #fff;
     display: block;
     float: left;
     width: 100%;
@@ -60,6 +61,15 @@ p{
     margin-bottom: 10px;
     line-height: 1.4;
     color: #333;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+#tenho-interesse{
+    background-color: #b8c8d6 !important;
 }
 
 ol{
@@ -131,6 +141,18 @@ footer small{
 }
 
 .cognito {
-    height: 445px !important;
+    height: 400px !important;
     overflow: hidden !important;
+}
+
+@media (max-width: 425px) {
+    section nav,
+    section article {
+        width: 100%;
+    }  
+
+    .container {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
 }
