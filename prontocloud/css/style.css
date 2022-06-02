@@ -94,6 +94,7 @@ section nav{
     display: block;
     float: left;
     width: 30%;
+    top: 0;
 }
 
 nav li{
@@ -156,3 +157,21 @@ footer small{
         padding-right: 1%;
     }
 }
+
+.bt {
+			border:1px solid #254159;
+			border-radius:3px;
+			font-family:Arial, Helvetica, sans-serif;
+			display:inline-block;
+			cursor:pointer;
+			font-weight:bold;
+			background:#254159;
+			color:#fff;
+			font-size:13px;
+			padding:6px 10px;
+			text-decoration:none;
+            line-height: 20px;
+			}
+			.bt:hover {
+            border:1px solid #fff;
+			}
