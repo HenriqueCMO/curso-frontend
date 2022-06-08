@@ -1,0 +1,6 @@
+ @import url(../html-css/css/reset.css);
+
+ input,button{
+     display: block;
+     margin: 10px;
+ }
