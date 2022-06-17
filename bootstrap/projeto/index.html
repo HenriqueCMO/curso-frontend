@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Website Store</title>
+    <title>Website TechStore</title>
     <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet" >
     <link rel="stylesheet" href="./style/custom.css">
     <link rel="shortcut icon" href="./images/brasil.png"> <!--Padrão 17x17px-->
@@ -25,7 +25,7 @@
             </div>
         </header>
         <section id="sobre">
-            <div class="container ">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-7 col-sm-12">
                         <h2>Sobre Nós</h2>
@@ -41,35 +41,52 @@
         </section>
         <section id="produtos">
             <div class="container">
-                <div class="rol">
+                <div class="row">
                     <div class="col">
-                        <h2 id="h2prod">Produtos</h2>
-                        <div class="card">
-                            <img src="./images/tshirt.jpg" alt="produto-1" class="img-fluid"  data-bs-toggle="modal" data-bs-target="#modal-1">
+                        <h2 style="text-align: center;">Produtos</h2>
+                        <div class="card col-md-5 col-sm-12">
+                            <img src="./images/tshirt.jpg" alt="camiseta" class="img-fluid"  data-bs-toggle="modal" data-bs-target="#modal-1">
                             <div class="card-body">
                                 <h5 class="card-title">Lorem ipsum dolor.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-1">Ver produto</a>
                             </div>
                         </div>
-                        <div class="card">
-                            <img src="./images/PHONE.jpg" alt="produto-2" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal-2">
+                        <div class="card col-md-5 col-sm-12">
+                            <img src="./images/PHONE.jpg" alt="celular" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal-2">
                             <div class="card-body">
                                 <h5 class="card-title">Dolor lorem ipsum.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                 <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-2">Ver produto</a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="./images/watch.jpg" alt="produto-3" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal-3">
-                            <div class="card-body">
-                                <h5 class="card-title"> Ipsum lorem dolor.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                                <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col">                        
+                        <div class="card col-md-5 col-sm-12">
+                            <img src="./images/watch.jpg" alt="relogio" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal-3">
+                            <div class="card-body">
+                                <h5 class="card-title"> Ipsum lorem dolor.</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-3">Ver produto</a>
+                            </div>
+                        </div>
+                        <div class="card col-md-5 col-sm-12">
+                            <img src="./images/sunglasses.jpg" alt="oculos" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Dolor lorem ipsum.</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal-4">Ver produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                
             </div>
         </section>
         <section id="contato">
@@ -100,7 +117,7 @@
             </div>
         </section>
         <div class="modal fade" id="modal-1">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered ">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Camiseta</h5>
@@ -138,7 +155,7 @@
             </div>
         </div>
         <div class="modal fade" id="modal-2">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Iphone</h5>
@@ -180,7 +197,7 @@
             </div>
         </div>
         <div class="modal fade" id="modal-3">
-            <div class="modal-dialog">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Relógio</h5>
@@ -203,6 +220,49 @@
                                 <tr>
                                     <td>Ouro Branco</td>
                                     <td>R$8600,00</td>
+                                </tr>                         
+                            </tbody>                            
+                        </table>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-secondary" data-bs-dismiss="modal" aria-label="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="modal-4">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Óculos de Sol</h5>
+                        <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira os modelos e os preços</h6>
+                        <table class="table table-hover table-striped">
+                            <thead>
+                               <tr>
+                                    <th>Modelos</th>
+                                    <th>Valor</th>
+                                </tr> 
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td>Lente Cinza</td>
+                                    <td>R$550,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Lente Espelhada Gold</td>
+                                    <td>R$650,00</td>
+                                </tr>
+                                <tr>
+                                    <td>Lente Espelhada Red</td>
+                                    <td>R$800,00</td>
+                                </tr>                         
+                                <tr>
+                                    <td>Lente Espelhada Blue</td>
+                                    <td>R$700,00</td>
                                 </tr>                         
                             </tbody>                            
                         </table>
