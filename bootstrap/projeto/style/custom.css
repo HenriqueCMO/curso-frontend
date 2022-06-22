@@ -17,7 +17,7 @@ input, textarea{
     filter: drop-shadow(8px 8px 15px gray);
 }
 
-h1{
+.index h1{
     color: blueviolet;
     background-color: rgb(231, 255, 255);
     border-radius: 1.5rem;
@@ -29,6 +29,14 @@ h1{
     animation-fill-mode: forwards;
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+}
+
+h1{
+    color: blueviolet;
+    background-color: rgb(231, 255, 255);
+    border-radius: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
 }
 
 @keyframes animate {
