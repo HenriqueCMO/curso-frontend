@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,13 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>jQuery</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="assets/images/header-logo.png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"><img src="assets/images/techstore-logo.jpg" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -28,28 +31,34 @@
                         <a class="nav-link" href="products.html">Produtos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Sobre nós</a>
+                        <a class="nav-link nav-modal-open" href="about.html" rel="sobre">Sobre nós</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contato</a>
+                        <a class="nav-link nav-modal-open" href="contact.html" rel="contato">Contato</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <!-- Button trigger modal
+    <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#modelId">
+        teste
+    </button> -->
+
     <div class="banner">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="caption">
-                        <h2>Ecommerce HTML Template</h2>
+                        <h2>Coleção Inverno 2022.</h2>
                         <div class="line-dec"></div>
-                        <p>HTML Template can be converted into your desired CMS theme. </p>
+                        <p>Venha conferir os looks e tendências da estação mais elegante do ano. </p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
     <div id="featured" class="featured-items">
         <div class="container">
             <div class="row">
@@ -63,7 +72,7 @@
                     <div class="owl-carousel owl-theme">
                         <div class="featured-item">
                             <img src="assets/images/item-01.jpg" alt="Item 1">
-                            <h4>Produto 1   </h4>
+                            <h4>Produto 1 </h4>
                             <h6>R$ 20,00</h6>
                             <a href="single-product.html">Comprar</a>
                         </div>
@@ -122,52 +131,138 @@
             </div>
         </div>
     </div>
+    <div class="subscribe-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-heading">
+                        <div class="line-dec"></div>
+                        <h1>Receba novidades</h1>
+                    </div>
+                </div>
+                <div class="col-md-8 offset-md-2">
+                    <div class="main-content">
+                        <p>Insira seus dados abaixo para receber informações atualizadas de nossos produtos</p>
+                        <div class="container">
+                            <form id="subscribe" action="" class="form" method="get">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <fieldset>
+                                            <input name="email" type="text" class="form-control" id="email"
+                                                placeholder="Seu e-mail...">
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <fieldset>
+                                            <button type="submit" id="form-submit" class="button">Inscreva-se</button>
+                                        </fieldset>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
     <div class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="logo">
-                        <img src="assets/images/header-logo.png" alt="">
+                        <a href="#"><img src="assets/images/techstore-logo.jpg" alt="logo"></a>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="footer-menu">
                         <ul>
                             <li><a href="#">Home</a></li>
-                            <li><a href="#">Help</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">How It Works ?</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Ajuda</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">Como Funciona?</a></li>
+                            <li><a href="#">Contato</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <div class="social-icons">
                         <ul>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
                             <li><a href="#"><i class="fa fa-rss"></i></a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
     <div class="sub-footer">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="copyright-text">
-                        <p>WebStore &copy; Todos os direitos reservados
-                        </div>
+                        <p>TechStore &copy; Todos os direitos reservados
                     </div>
                 </div>
             </div>
         </div>
-        <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
-        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script src="./vendor/owl/js/owl.js"></script>
-        <script src="./js/custom.js"></script>
-    </body>
-    </html>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="contato" class="visually-hidden">
+        <form action="" class="form">
+            <div class="mb-3">
+                <label for="nome" class="form-label">Nome</label>
+                <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome"
+                    aria-describedby="helpNome">
+                <small id="helpNome" class="text-muted">Digite um nome válido.</small>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="text" name="email" id="email" class="form-control" placeholder="Digite seu email"
+                    aria-describedby="helpNome">
+                <small id="helpNome" class="text-muted">Digite um email válido.</small>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+
+    <div id="sobre" class="visually-hidden">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit minima, sed earum quibusdam ipsa suscipit
+            ipsum quo voluptatem ducimus beatae amet, repellat numquam totam provident? Eum ducimus officia alias
+            aspernatur.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate dignissimos inventore sequi
+            exercitationem dicta similique cumque maxime, velit sapiente quos enim nobis doloribus mollitia praesentium
+            nemo nihil maiores dolorem qui!</p>
+    </div>
+
+    <script src="./vendor/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/owl/js/owl.js"></script>
+    <script src="./js/custom.js"></script>
+</body>
+
+</html>
